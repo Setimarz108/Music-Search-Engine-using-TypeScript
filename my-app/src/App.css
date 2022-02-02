@@ -4,17 +4,28 @@
 }
 
 body{
-  background-color: #ffffff;
-  color: rgb(12, 10, 10);
+  background-color: rgba(135, 204, 250, 0.15);
+  color: #000000;
 }
 
 .album{
   display:flex;
+ 
   justify-content:center;
-  border: solid 1px black;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
-  margin-bottom: 20px;
+  border: solid 1px #d1ff48;
+  color: #1b1c1d;
+  border-radius:10px;
+  box-shadow: rgba(133, 130, 130, 0.904) 0px 19px 38px, rgba(182, 180, 180, 0.22) 0px 15px 12px;
+  margin-bottom: 50px;
   margin-left:20px;
   margin-right:20px;
   margin-top:20px;
+
+}
+
+h1{
+  margin-bottom:70px;
+  color:#fafef7;
+  text-shadow: -2px -4px 6px rgba(150, 150, 150, 1);
+  box-shadow: rgba(20, 1, 39, 0.17) 0px -23px 25px 0px inset, rgba(6, 140, 202, 0.15) 0px -36px 30px 0px inset, rgba(110, 110, 109, 0.1) 0px -79px 40px 0px inset, rgba(140, 250, 36, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
